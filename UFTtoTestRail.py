@@ -36,8 +36,8 @@ class UFT:
     def updateTestRail(self, URL):
         print ("Connecting to Test Rail")
         tr = APIClient(URL)
-        tr.user = 'andygmo@gmail.com'
-        tr.password = 'testpass123'
+        tr.user = 'xxxxxx@gmail.com'
+        tr.password = 'xxxxxxxxxxx'
         print ("Posting Results")
         tr.send_post('add_result/1', {'status_id':self.status})
 
